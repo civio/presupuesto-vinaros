@@ -8,7 +8,7 @@ MAIN_ENTITY_NAME = 'Vinaròs'
 BUDGET_LOADER = 'VinarosBudgetLoader'
 PAYMENTS_LOADER = 'VinarosPaymentsLoader'
 
-FEATURED_PROGRAMMES = ['16500', '13200', '33800', '24100']
+FEATURED_PROGRAMMES = ['1500', '1510', '1533']
 
 OVERVIEW_INCOME_NODES = [
                           {
@@ -75,8 +75,8 @@ SEARCH_ENTITIES = False
 
 # Supported languages. Default: ('es', 'Castellano')
 LANGUAGES = (
-  # ('gl', 'Galego'),
   ('es', 'Castellano'),
+  ('ca', 'Valenci&agrave;'),
 )
 
 # Setup Data Source Budget link
