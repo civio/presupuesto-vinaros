@@ -13,31 +13,31 @@ FEATURED_PROGRAMMES = ['3340', '3200', '2311', '1533']
 OVERVIEW_INCOME_NODES = [
                           {
                             'nodes': [['11', '113']],
-                            'label': 'Impuesto a bienes inmuebles de naturaleza urbana',
-                            'label.gl': 'Imposto sobre inmobiliario de natureza urbana'
+                            'label.es': 'Impuesto a bienes inmuebles de naturaleza urbana',
+                            'label.ca': 'Impost sobre béns immobles de naturalesa urbana'
                           },
-                          '13', '42', '45',
+                          '42', '45',
                           {
                             'nodes': [['39', '391']],
-                            'label': 'Multas',
-                            'label.gl': 'Multas'
+                            'label.es': 'Multas',
+                            'label.ca': 'Multes'
                           },
                           {
                             'nodes': [['11', '115']],
-                            'label': 'Impuesto sobre vehículos de tracción mecánica',
-                            'label.gl': 'Imposto sobre vehículos a motor'
+                            'label.es': 'Impuesto sobre vehículos de tracción mecánica',
+                            'label.ca': 'Impost sobre vehicles de tracció mecànica'
                           },
                           {
                             'nodes': [['30', '302']],
-                            'label': 'Servicio de recogida de basuras',
-                            'label.gl': 'Servizo de recollida de lixo'
+                            'label.es': 'Servicio de recogida de basuras',
+                            'label.ca': "Servei de recollida d'escombraries"
                           },
                         ]
-OVERVIEW_EXPENSE_NODES = ['16', '13', '92', '01', '15', '33', '23', '17', '44', '32']
+OVERVIEW_EXPENSE_NODES = ['16', '13', '92', '01', '15', '33', '23', '17', '32']
 
 # How aggresive should the Sankey diagram reorder the nodes. Default: 0.79 (Optional)
 # Note: 0.5 usually leaves nodes ordered as defined. 0.95 sorts by size (decreasing).
-OVERVIEW_RELAX_FACTOR = 0.5
+OVERVIEW_RELAX_FACTOR = 0.95
 
 # Show Payments section in menu & home options. Default: False.
 # SHOW_PAYMENTS           = True
