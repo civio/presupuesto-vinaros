@@ -16,11 +16,31 @@ class VinarosBudgetLoader(SimpleBudgetLoader):
         # Programme codes have changed in 2015, due to new laws. Since the application expects a code-programme
         # mapping to be constant over time, we are forced to amend budget data prior to 2015.
         # See https://github.com/dcabo/presupuestos-aragon/wiki/La-clasificaci%C3%B3n-funcional-en-las-Entidades-Locales
-        # programme_mapping = {
-        #     # old programme: new programme
-        #     '13400': '13500',
-        # }
+        programme_mapping = {
+            # old programme: new programme
+            '1320': '1300',
+            '1340': '1350',     # Protección Civil
+            '1350': '1360',     # Bomberos
+            '1550': '1533',     # Brigada
+            '1620': '1621',     # Residuos
+            '2100': '9200',     # Seguridad Social. TODO: Check. Seems it was not being distributed.
+            '2300': '2313',     # Servicios Sociales. TODO: Check
+            '2310': '2311',     # Acción Social
+            '2320': '2312',     # Promoción Social
+            '2340': '2313',     # Mayores
+            '3130': '3110',     # Sanidad
+            '3210': '3262',     # Servicios complementarios de educación
+            '3240': '3262',     # Servicios complementarios de educación
+            '3320': '3321',     # Bibliotecas
+            '3370': '3380',     # Fiestas populares
+            '4310': '4314',     # Comercio
+            '4920': '2410',     # Fomento del empleo
+            '9250': '3261',     # Juventud
+            '9260': '9261',     # Nuevas Tecnologías
 
+        }
+
+        # The 2015 codes don't match the 2016 budget we got in PDF, with programme names
         programme_mapping_2015 = {
             # old programme: new programme
             '1320': '1300', # TODO: Check what's 132

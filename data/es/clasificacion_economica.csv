@@ -530,5 +530,7 @@ I,5,2,0,Intereses de depósitos
 I,5,2,1,Intereses de depósitos
 I,9,1,7,Préstamos recibidos en euros
 G,1,6,3,Prestaciónes sociales laborales
+G,4,7,8,A empresas privadas
 G,4,8,0,A familias e instituciones sin fines de lucro
+G,4,8,8,A familias e instituciones sin fines de lucro
 G,4,9,0,Al exterior
