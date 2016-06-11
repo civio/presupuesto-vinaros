@@ -8,7 +8,7 @@ MAIN_ENTITY_NAME = 'Vinaròs'
 BUDGET_LOADER = 'VinarosBudgetLoader'
 PAYMENTS_LOADER = 'VinarosPaymentsLoader'
 
-FEATURED_PROGRAMMES = ['1500', '1510', '1533']
+FEATURED_PROGRAMMES = ['3340', '3200', '2311', '1533']
 
 OVERVIEW_INCOME_NODES = [
                           {
