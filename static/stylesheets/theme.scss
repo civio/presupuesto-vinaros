@@ -1,29 +1,5 @@
-// Btns
-.btn-default:hover{
-  border-color: mix( $brand-primary, white, 75% );
-  background: mix( $brand-primary, white, 75% );
-}
-
-// Icons
-.btn[class*="icon-"]:before{
-  // align-right
-  float: right;
-  margin-right: 0;
-  margin-left: 10px;
-}
-
-// Lang Menu
-#menu-lang ul li input[type=submit]{
-  color: $text-color;
-}
-
-// Header
-.navbar-brand a{
-  color: $brand-secondary;
-
-  &:hover{
-    color: $brand-terciary;
-  }
+.navbar-brand{
+  font-size: 2.5em;
 }
 
 .navbar-default .navbar-nav{
@@ -33,219 +9,50 @@
 
   > li > a{
     text-transform: uppercase;
-    font-weight: $font-weight-600;
+    font-weight: $font-weight-400;
 
     &:hover{
-      font-weight: $font-weight-400;
-    }
-  }
-}
-
-.navbar-default .navbar-toggle,
-.navbar-default .navbar-toggle:hover,
-.navbar-default .navbar-toggle:focus{
-  color: $text-color;
-}
-
-// Section Header
-.section-header .page-title{
-  color: black;
-}
-
-// Social Sharing
-.social-sharing-toolbox li a{
-  background-color: $gray-light;
-}
-
-// Data Sources
-.data-sources {
-  background: mix( $brand-terciary, white, 60% );
-
-  .alert{
-   background: mix( $brand-terciary, white, 40% );
-  }
-}
-
-// Data Panel
-.data-panel .panel-title{
-  background: $gray-light;
-  font-weight: $font-weight-300;
-}
-
-// Data Downloads
-.panel-downloads{
-  border-color: mix( $brand-terciary, white, 40% );
-  background: mix( $brand-terciary, white, 40% );
-
-  a{
-    color: darken($brand-terciary, 10%);
-
-    &:hover{
-      color: $text-color;
-    }
-  }
-}
-
-// Home
-.home-content .expense-examples li{
-  background: $brand-primary;
-}
-
-.home-content .options{
-  background: $brand-primary;
-
-  .option > div{
-
-    .option-title:hover h3{
-      color: $text-color;
-    }
-
-    .btn{
-      background: $brand-secondary;
-
-      &:hover{
-        color: $brand-secondary;
-        background: $brand-primary; 
-      }
-    }
-  }
-}
-
-// Budget
-.budget-intro{
-  background: $brand-primary;
-
-  .budget-step{
-    border: none;
-
-    h3 
-    span{
       color: $brand-primary;
-      font-weight: $font-weight-400;
-    }
-    b{
-      font-weight: $font-weight-400;
-    }
-    .desc{
-      font-size: 1em;
-      background: $gray-light;
-
-      b{
-        font-weight: $font-weight-400;
-      }
     }
   }
 }
 
-.budget-data{
-  background: $brand-primary;
-}
+.nav-tabs > li > a{
+  font-size: 1em;
 
-
-// Policies
-.policies-chart{
-  background: white;
-}
-
-.policies-graph{
-  background: white;
-}
-
-.stacked-area-chart-legend .label{
-  
-  &:hover{
-    background: $brand-secondary;
-  }
-}
-
-// Glossary
-.form-search-glossary .btn-primary{
-  color: white;
-  font-weight: $font-weight-400;
-
-  &:hover{
-    color: $brand-secondary;
-    background: darken( $brand-primary, 10% )
-  }
-}
-
-.glossary-terms h3, 
-.glossary-terms h4{
-  font-weight: $font-weight-300;
-  
-  &:before{
-    color: $gray-light;
-  }
-}
-
-.form-search-glossary .form-control{
-  border-color: $brand-primary;
-}
-
-// Search
-.search-content .alert{
-  background: $brand-secondary;
-}
-.search-content .panel{
-  border-color: $brand-primary;
-
-  .panel-heading{
-    color: white;
-    background: $brand-primary;
-
-    h3{
-      color: white;
-    }
-  }
-}
-
-// Search Icon
-.form-search{
-  color: white;
-  
-  label{
+  > h3{
+    color: $brand-primary;
+    text-transform: uppercase;   
     font-weight: $font-weight-400;
   }
 }
 
-.form-search .form-inline .btn{
-  color: $brand-terciary;
-  font-weight: $font-weight-400;
+.panel-downloads{
+  background: $brand-secondary;
+  border-color: $brand-secondary;
 
-  &:hover{
-    color: $brand-secondary;
-  }
-}
-
-table.table-grid{
-  border-color: $gray-light;
-
-  thead th{
-    background: $gray-light;
+  a{
+    color: $brand-primary;
 
     &:hover{
-      background: $gray;
+      color: $brand-terciary;
     }
   }
-  tr td a{
-    color: $text-color;
-  }
 }
 
-#cookie-bar a.cb-enable{
-  color: white;
-  background-color: $brand-secondary;
-
-  &:hover{
-    color: $brand-secondary;
-    background: transparent;
-  }
+.policies-chart{
+  background: none;
 }
-#cookie-bar a.cb-policy{
-  background: transparent;
-  color: $brand-secondary;
 
-  &:hover{
-    color: $text-color;
-  }
+.social-sharing-toolbox li a{
+  background-color: $brand-primary;
+}
+
+.form-search-glossary .btn-primary{
+  background: $brand-primary;
+  border-color: $brand-primary;
+}
+.glossary-terms h3:before, 
+.glossary-terms h4:before{
+  color: $brand-primary;
 }
