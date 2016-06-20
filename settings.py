@@ -14,23 +14,27 @@ OVERVIEW_INCOME_NODES = [
                           {
                             'nodes': [['11', '113']],
                             'label.es': 'Impuesto a bienes inmuebles de naturaleza urbana',
-                            'label.ca': 'Impost sobre béns immobles de naturalesa urbana'
+                            'label.ca': 'Impost sobre béns immobles de naturalesa urbana',
+                            'link_id': '11'
                           },
                           '42', '45',
                           {
                             'nodes': [['39', '391']],
                             'label.es': 'Multas',
-                            'label.ca': 'Multes'
+                            'label.ca': 'Multes',
+                            'link_id': '39'
                           },
                           {
                             'nodes': [['11', '115']],
                             'label.es': 'Impuesto sobre vehículos de tracción mecánica',
-                            'label.ca': 'Impost sobre vehicles de tracció mecànica'
+                            'label.ca': 'Impost sobre vehicles de tracció mecànica',
+                            'link_id': '11'
                           },
                           {
                             'nodes': [['30', '302']],
                             'label.es': 'Servicio de recogida de basuras',
-                            'label.ca': "Servei de recollida d'escombraries"
+                            'label.ca': "Servei de recollida d'escombraries",
+                            'link_id': '30'
                           },
                         ]
 OVERVIEW_EXPENSE_NODES = ['16', '13', '92', '01', '15', '33', '23', '17', '32']
