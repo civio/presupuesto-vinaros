@@ -48,6 +48,7 @@
 1,6,4,0,Cementiri i serveis funeraris
 1,6,5,0,Enllumenat públic
 1,7,0,0,Medi ambient
+1,7,1,0,Parcs i jardins
 1,7,1,1,Platges
 2,2,1,0,Prestacions socials
 2,3,1,1,Acció social
@@ -73,7 +74,9 @@
 4,3,2,0,Turisme
 4,4,1,1,Transport col·lectiu urbà de viatgers
 4,5,4,0,Camins veïnals
+4,9,1,0,Administració electrònica
 4,9,2,0,Vinalab
+4,9,3,0,Protecció de consumidors i usuaris
 9,1,2,0,Càrrecs electes
 9,2,0,0,Administració general
 9,2,4,0,Participació ciutadana i govern obert

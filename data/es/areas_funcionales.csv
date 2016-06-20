@@ -48,6 +48,7 @@
 1,6,4,0,Cementerio y servicios funerarios
 1,6,5,0,Alumbrado público
 1,7,0,0,Medio ambiente
+1,7,1,0,Parques y jardines
 1,7,1,1,Playas
 2,2,1,0,Prestaciones sociales
 2,3,1,1,Acción social
@@ -73,7 +74,9 @@
 4,3,2,0,Turismo
 4,4,1,1,Transporte colectivo urbano de viajeros
 4,5,4,0,Caminos vecinales
+4,9,1,0,Administración electrónica
 4,9,2,0,Vinalab
+4,9,3,0,Protección de consumidores y usuarios
 9,1,2,0,Cargos electos
 9,2,0,0,Administración general
 9,2,4,0,Participación ciudadana y gobierno abierto

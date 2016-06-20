@@ -40,12 +40,18 @@ class VinarosBudgetLoader(SimpleBudgetLoader):
 
         }
 
-        # The 2015 codes don't match the 2016 budget we got in PDF, with programme names
         programme_mapping_2015 = {
             # old programme: new programme
+            # The 2015 codes don't match the 2016 budget we got in PDF, with programme names
             '1320': '1300', # TODO: Check what's 132
             '1712': '1711', # TODO: Check what's 1712
             '4312': '4314', # TODO: What's 4312
+
+            # And some programmes in 2016 have the same name, for some unknown reason
+            '1532': '1533', # Same name for 'Brigada y vías públicas'
+            '1600': '1610', # Saneamiento, abastecimiento y distribución de aguas
+            '1620': '1621', # Same name for 'Recogida, eliminación y tratamiento residuos'
+            '4120': '4100', # Same name for 'Agricultura'
         }
 
         # Some dirty lines in input data
